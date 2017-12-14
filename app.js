@@ -7,8 +7,8 @@ const bodyParser = require('body-parser');
 
 /*Rutas*/ 
 const publicDir = express.static(`${__dirname}/public`);
-	//const routes = require();
-	const conf = require('./conf');
+const routes = require("./routes/routes");
+const conf = require('./conf');
 
 
 const port = process.env.PORT || conf.server.port;
@@ -28,6 +28,6 @@ app
 	.set('port',port)
 	.use(bodyParser.json())
 	.use(bodyParser.urlencoded({extended:false}))
-	.use(publicDir);
-	//.use(routes);
+	.use(publicDir)
+	.use(routes);
 module.exports = app;
