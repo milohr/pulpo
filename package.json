@@ -26,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/milohr/pulpo/issues"
   },
-  "homepage": "https://github.com/milohr/pulpo#readme"
+  "homepage": "https://github.com/milohr/pulpo#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.7"
+  }
 }
