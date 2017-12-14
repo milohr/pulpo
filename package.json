@@ -4,7 +4,10 @@
   "description": "MDM for music lyrics",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+    
+
   },
   "repository": {
     "type": "git",
@@ -21,10 +24,20 @@
     "lyrics",
     "mir"
   ],
-  "author": "camilo higuita",
+  "author": ["camilo higuita","Andres Hadechine"],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/milohr/pulpo/issues"
   },
-  "homepage": "https://github.com/milohr/pulpo#readme"
+  "homepage": "https://github.com/milohr/pulpo#readme",
+  "dependencies": {
+
+    "body-parser": "^1.18.2",
+
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.7"
+  }
 }
