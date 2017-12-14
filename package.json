@@ -1,0 +1,30 @@
+{
+  "name": "pulpo",
+  "version": "1.0.0",
+  "description": "MDM for music lyrics",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milohr/pulpo.git"
+  },
+  "keywords": [
+    "mdm",
+    "lyrics",
+    "music",
+    "information",
+    "music",
+    "knowledge",
+    "music",
+    "lyrics",
+    "mir"
+  ],
+  "author": "camilo higuita",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/milohr/pulpo/issues"
+  },
+  "homepage": "https://github.com/milohr/pulpo#readme"
+}
